@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
-import Typical from 'react-typical'
+import { Typewriter } from "react-simple-typewriter";
 import { FaDiscord, FaInstagram ,FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import Me from '../../assets/Images/Me.jpg'
 import "./Profile.css"
@@ -27,10 +27,14 @@ const Profile = () => {
           <div className="profile-details-role">
             <span className="primary-text">
               <h1>
-                <Typical loop={Infinity} steps={[ "Web Developer", 1000, "UI/UX Designer", 1000, "MERN Developer", 1000, "Analyst", 1000 ]}/>
+                &nbsp;
+                <Typewriter words={["Web Developer", "Free Lancer", "Enthusiastic Dev"]} loop={false} typeSpeed={100} deleteSpeed={100} delaySpeed={1000}/>
               </h1>
               <span className="profile-role-tagline">
-                Knack of building front-end applications using MERN
+                Knack of building front-end applications using MERN stack.<br/>
+              </span>
+              <span className="profile-role-tagline">
+                I enjoy designing tech websites.              
               </span>
             </span>
           </div>

@@ -18,7 +18,7 @@
 .profile-details-role{
     display: flex;
     flex-direction: column;
-    margin: 0.875rem 0 1.5rem 0;
+    margin: 0.2rem 0 1.5rem 0;
 }
 .profile-details-role h1{
     font-size: 2.5rem;
@@ -76,20 +76,20 @@
 .colz-icon a{
     color: white;
     padding: 0.93rem;
-    padding-left: 0rem;
+    padding-left: 0;
     font-size: 1.25rem;
-    margin: 0.2rem;
+    margin: auto;
 }
 .colz-icon a:hover{
     transform: scale(1.5);
 }
 
-@media only screen and (min-width:710px) and (max-width:910px) {
+@media only screen and (min-width:640px) and (max-width:910px) {
     .profile-picture{
         margin: 0 0rem 0 5rem;
     }
     .profile-details-name{
-        font-size: 1.25rem;
+        font-size: 1.75rem;
     }
     .profile-details-role .primary-text{
         font-size: 0.75rem;
@@ -127,6 +127,7 @@
     }
     .profile-options,.profile-details-role{
         text-align: center;
+        font-size: 0.75rem;
     }
 }
 @media only screen and (max-width:480px){
